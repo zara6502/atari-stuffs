@@ -1,16 +1,16 @@
 # **ATR File Format Description**
-Programs
-Used w
-idely by emulators, SIO2PC & APE peripheal emulators.
+Programs  
+Used w  
+idely by emulators, SIO2PC & APE peripheal emulators.  
 
 # **Conventions**
-**DWORD** - 32bit unsigned long (little endian)
-**WORD** - 16bit unsigned short (little endian)
-**BYTE** - 8bit unsigned char
+**DWORD** - 32bit unsigned long (little endian)  
+**WORD** - 16bit unsigned short (little endian)  
+**BYTE** - 8bit unsigned char  
 
 # **Header**
 
-16 bytes long.
+16 bytes long.  
  
 | Type |	Name |	Description |
 | :--- | :--: | :---------- |
@@ -23,5 +23,5 @@ idely by emulators, SIO2PC & APE peripheal emulators.
 | BYTE	| btFlags	| bit 0 (ReadOnly) (added by APE?) |
 
 # **Body**
-Then there are continuous sectors. Some ATR files are incorrect - if sector size is > $80 first three sectors should be $80 long. But, few files have these sectors $100 long.
+Then there are continuous sectors. Some ATR files are incorrect - if sector size is > $80 first three sectors should be $80 long. But, few files have these sectors $100 long.  
 Format was created by Nick Kennedy.
