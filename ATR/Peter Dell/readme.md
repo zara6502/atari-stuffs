@@ -1,4 +1,4 @@
-#Atar8 Tools
+# Atari8 Tools
 is a collection Atari 8-bit related of command line tools for Posix compatible environments:  
 - Franny is an ATR disk image editor. Supports AtariDOS II disk format (partially) and SpartaDos 2 disk format.  
 - Yvonne is an Atari picture viewer / converter.  
